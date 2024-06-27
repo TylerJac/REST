@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posts Manager</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .button-container {
+            margin-bottom: 20px;
+        }
+        .result {
+            margin-top: 20px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="button-container">
+        <button id="getAllPosts">Get All Posts</button>
+        <button id="getSinglePost">Get Post with ID 10</button>
+        <button id="createPost">Create New Post</button>
+        <button id="updatePost">Update Post with ID 12</button>
+        <button id="deletePost">Delete Post with ID 12</button>
+    </div>
+    <div id="results" class="result"></div>
+
+    <script src="REST.js"></script>
+</body>
+</html>
